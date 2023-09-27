@@ -12,7 +12,7 @@ In windows, The Login failed event will have an in <b>4625</b> and it will be st
 <ul>
   <li>STEP-1: Clone the repository (or) download it as zip file.
     <br><br>
-  <pre>git clone https://github.com/mjlp9566/Hidden-Eye-v1.git</pre>
+  <pre>git clone https://github.com/mjlp9566/Hidden-Eye-V1.git</pre>
   </li>
   
   <li>STEP-2:Install requirements
