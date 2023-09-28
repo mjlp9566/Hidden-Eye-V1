@@ -53,9 +53,13 @@ In windows, The Login failed event will have an id `4625` and it will be stored 
 
 <pre> If need to stop the service then run the <b>hidden_eye.py</b> program again and choose the second option.</pre>
 
+>If your built-in camera notworking so you are using a external camera, Then change these in the capture.py-->camera = pygame.camera.Camera(camera_list[1],(640,480))
+
+
 <h2>OUTPUT</h2>
 
 ![271072511-09ebd226-8b7e-494e-a5b9-b5d63b8a2207](https://github.com/mjlp9566/Hidden-Eye-V1/assets/55002003/041ab259-4899-47d4-b648-2e5c6bacb27f)
+
 
 
 <ol>
