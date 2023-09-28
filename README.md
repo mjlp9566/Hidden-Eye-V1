@@ -1,9 +1,13 @@
 # Hidden-Eye-V1👁️
+
+
+
 <h2>Description</h2>
 A python application for windows that monitor the login failed and success attempts and capture the picture of the intruder who  enters the password.
 
 <h2>Methodology</h2>
-In windows, The Login failed event will have an in <b>4625</b> and it will be stored in windows logs. By using the evengt id we can create a task attached to the event, so that whenever the event happens the task will be triggered and this task creation for the event can be done with the windows <b>schtasks</b> command. These process is automated using subprocess module and a python to capture the image is attached to the task.
+
+In windows, The Login failed event will have an id `4625` and it will be stored in windows logs. By using the event id we can create a task attached to the event, so that whenever the event happens the task will be triggered and this task creation for the event can be done with the windows <b>schtasks</b> command. These process is automated using subprocess module and a python program to capture the image is attached to the task.
 
 <h2>Usage</h2>
 
@@ -12,17 +16,28 @@ In windows, The Login failed event will have an in <b>4625</b> and it will be st
 <ul>
   <li>STEP-1: Clone the repository (or) download it as zip file.
     <br><br>
-  <pre>git clone https://github.com/mjlp9566/Hidden-Eye-V1.git</pre>
+    
+  ```
+  git clone https://github.com/mjlp9566/Hidden-Eye-V1.git
+  ```
+  
   </li>
   
   <li>STEP-2:Install requirements
   <br><br>
-   <pre><ul><li>cd Hidden-Eye-V1</li><li>pip install -r requirements.txt</li></ul></pre>
+
+   ``` 
+   cd Hidden-Eye-V1
+   pip install -r requirements.txt
+   ```
   </li>
 
   <li>STEP-3:Run the hidden_eye file
   <br><br>
-    <pre> python hidden_eye.py</pre>
+    
+  ```
+  python hidden_eye.py
+  ```
   </li>
 
   <li>STEP-4: Choose option-1 to enable the service
