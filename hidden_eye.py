@@ -46,7 +46,7 @@ while(True):
      with open("TaskSettings.xml", "w") as file:
       process = subprocess.Popen("""schtasks /Query /TN "MONITOR" /XML""", shell=True, text=True, stdout=file, stderr=subprocess.PIPE)
       process.wait()    
-     update(cap_path+"TaskSettings.xml")
+     update(cap_path+r"\TaskSettings.xml")
      print("success")
      subprocess.run("""schtasks /Create /XML """+"TaskSettings.xml" +""" /TN "MONITOR" /F""")
 
