@@ -52,7 +52,6 @@ while(True):
 
     elif(a==2):
      subprocess.run('''schtasks /Change /TN "MONITOR" /DISABLE''')
-     subprocess.run('''schtasks /Change /TN "MONITOR1" /DISABLE''')
     else:
         break
 
