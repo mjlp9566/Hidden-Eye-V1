@@ -5,7 +5,7 @@ import xmltodict
 py_path=sys.executable
 cap_path=os.getcwd()
 path = os.path.expanduser('~')
-final_path='''"'''+py_path+" "+cap_path+"capture.py"+'''"'''
+final_path='''"'''+py_path+" "+cap_path+r"\capture.py"+'''"'''
 print(final_path)
     
 def update(xml_file_path):
