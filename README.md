@@ -42,7 +42,8 @@ In windows, The Login failed event will have an id `4625` and it will be stored 
 
   <li>STEP-4: Choose option-1 to enable the service
 
-   ![image](https://github.com/mjlp9566/Hidden-Eye-V1/assets/55002003/57809855-343e-4730-b371-f4f75da84839)
+   ![271067997-57809855-343e-4730-b371-f4f75da84839](https://github.com/mjlp9566/Hidden-Eye-V1/assets/55002003/bb073101-4930-4894-ba86-ef2da01f087a)
+
 
   
   > <b>Note:</b> Once you enabled the program then don't need to start again.
@@ -54,7 +55,8 @@ In windows, The Login failed event will have an id `4625` and it will be stored 
 
 <h2>OUTPUT</h2>
 
-![image](https://github.com/mjlp9566/Hidden-Eye-V1/assets/55002003/09ebd226-8b7e-494e-a5b9-b5d63b8a2207)
+![271072511-09ebd226-8b7e-494e-a5b9-b5d63b8a2207](https://github.com/mjlp9566/Hidden-Eye-V1/assets/55002003/041ab259-4899-47d4-b648-2e5c6bacb27f)
+
 
 <ol>
 <li>The logs and pictures will be stored inside the directory of the user  who enabled the service [C:\Users\$user]</li>
